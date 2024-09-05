@@ -1,27 +1,54 @@
-# FrontendBio
+# Projeto "Sobre Mim"
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+Este projeto é um exemplo simples de uma página pessoal desenvolvida com Angular. Ele serve como um projeto para a disciplina de Arquitetura de Front-end na pós-graduação em Engenharia de Software.
 
-## Development server
+## Estrutura do Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A estrutura do projeto é a seguinte:
 
-## Code scaffolding
+```plaintext
+src/
+│
+├── app/
+│   ├── header/
+│   │   ├── header.component.ts
+│   │   ├── header.component.html
+│   │   └── header.component.css
+│   │
+│   ├── about/
+│   │   ├── about.component.ts
+│   │   ├── about.component.html
+│   │   └── about.component.css
+│   │
+│   ├── contact/
+│   │   ├── contact.component.ts
+│   │   ├── contact.component.html
+│   │   └── contact.component.css
+│   │
+│   └── app.component.ts
+│       app.component.html
+│       app.component.css
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Componentes
 
-## Build
+- **HeaderComponent**: Exibe o cabeçalho da página, incluindo seu nome e um menu de navegação simples.
+- **AboutComponent**: Contém informações sobre você, como sua experiência e interesses.
+- **ContactComponent**: Fornece informações de contato, como links para suas redes sociais e email.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Configuração do Projeto
 
-## Running unit tests
+1. **Clone o Repositório**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```bash
+   git clone https://github.com/fernanda-nascimento/frontend-bio.git
 
-## Running end-to-end tests
+## Instale as Dependências
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Instale as Dependências**
+Navegue até o diretório do projeto e instale as dependências:
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+Copiar código
+cd frontend-bio
+npm install
